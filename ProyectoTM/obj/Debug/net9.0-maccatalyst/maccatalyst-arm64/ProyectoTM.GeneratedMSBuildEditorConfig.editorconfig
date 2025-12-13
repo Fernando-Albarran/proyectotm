@@ -30,6 +30,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[/Users/alumnoad/Desktop/ProyectoTecnologiasMoviles/ProyectoTM/DetalleRuta.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.DetalleRuta.xaml
+build_metadata.AdditionalFiles.TargetPath = DetalleRuta.xaml
+build_metadata.AdditionalFiles.RelativePath = DetalleRuta.xaml
+
+[/Users/alumnoad/Desktop/ProyectoTecnologiasMoviles/ProyectoTM/ListaRuta.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.ListaRuta.xaml
+build_metadata.AdditionalFiles.TargetPath = ListaRuta.xaml
+build_metadata.AdditionalFiles.RelativePath = ListaRuta.xaml
+
 [/Users/alumnoad/Desktop/ProyectoTecnologiasMoviles/ProyectoTM/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.MainPage.xaml
@@ -47,3 +59,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/alumnoad/Desktop/ProyectoTecnologiasMoviles/ProyectoTM/Shell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.Shell.xaml
+build_metadata.AdditionalFiles.TargetPath = Shell.xaml
+build_metadata.AdditionalFiles.RelativePath = Shell.xaml
