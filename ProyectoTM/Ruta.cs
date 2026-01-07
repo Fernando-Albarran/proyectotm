@@ -22,6 +22,8 @@ public class Ruta
 
     public List<String> Etiquetas {get; set; } 
 
-    public Ruta(){}
-
+    public Ruta()
+    {
+        Etiquetas = new List<string>();
+    }
 }
