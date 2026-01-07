@@ -18,7 +18,7 @@ public class Ruta
 
     public bool Circular{ get; set; }
 
-    public string FechaApertura{ get; set; }
+    public DateTime FechaApertura{ get; set; }
 
     public List<String> Etiquetas {get; set; } 
 

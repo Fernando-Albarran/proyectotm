@@ -4,11 +4,29 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:ProyectoTM"
-    Title="ProyectoTM">
+    Title="Rutas">
 
+<FlyoutItem Title ="Rutas">
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Añadir ruta"
+        ContentTemplate="{DataTemplate local:AñadirRutaPage}"/>
 
+        <ShellContent
+        Title="Buscar ruta"
+        ContentTemplate="{DataTemplate local:BuscarRutaPage}"/>
+
+        <ShellContent
+        Title="Listado ruta"
+        ContentTemplate="{DataTemplate local:ListadoRutaPage}"/>
+
+        <ShellContent
+        Title="Etiqueta ruta"
+        ContentTemplate="{DataTemplate local:EtiquetaRutaPage}"/>
+
+        <ShellContent
+        Title="Eliminar ruta"
+        ContentTemplate="{DataTemplate local:EliminarRutaPage}"/>
+
+
+</FlyoutItem>
 </Shell>
