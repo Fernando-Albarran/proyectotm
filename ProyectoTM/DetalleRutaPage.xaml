@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoTM.DetalleRutaPage"
+             Title="DetalleRutaPage">
+
+
+             <ScrollView>
+                 <VerticalStackLayout Padding= "20" Spacing = "10">
+                        <Label Text =" Datos a detalle" FontSize =" 21"/>
+                        <Label Text ="Identificador: "/>
+                        <Label x:Name="identificadorRu"/>
+
+                        <Label Text ="Nombre: "/>
+                        <Label x:Name="nombreRu"/>
+
+                        <Label Text ="Dificultad: "/>
+                        <Label x:Name="dificultadRu"/>
+
+                        <Label Text ="Distancia: "/>
+                        <Label x:Name="distanciarRu"/>
+
+                        <Label Text ="Desnivel postivio: "/>
+                        <Label x:Name="desnivelRu"/>
+
+                        <Label Text ="Provincia: "/>
+                        <Label x:Name="provinciaRu"/>
+
+                        <Label Text ="Circular: "/>
+                        <Label x:Name="circularRu"/>
+
+                        <Label Text ="Fecha de apertura: "/>
+                        <Label x:Name="fechaapRu"/>
+
+                        <Label Text ="Etiquetas: "/>
+                        <Label x:Name="etiquetaRu"/>
+
+                        
+
+
+                    
+                </VerticalStackLayout>
+
+    </ScrollView>
+</ContentPage>

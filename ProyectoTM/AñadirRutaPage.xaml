@@ -15,6 +15,10 @@
                 <x:String>Dificil</x:String>
             </Picker.Items>
         </Picker>
+        <Entry x:Name="distanciaR" Placeholder="Distancia (km)"/>
+        
+        <Entry x:Name="desnivelR" Placeholder="Desnivel positivo"/>
+
 
         <Entry x:Name ="provinciaR" Placeholder="Provincia"/>
         <Switch x:Name ="circularR"/>

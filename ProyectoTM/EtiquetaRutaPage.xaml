@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoTM.EtiquetaRutaPage"
+             Title="Gestion de etiquetas">
+    <VerticalStackLayout Padding ="20" Spacing="10">
+
+       <Label Text="Eitquetas de la ruta"/>
+   
+
+       <Entry x:Name="nuevaetiquetaE" Placeholder="Nueva etiqueta"/>
+
+       <Button Text="Añadir etiqueta" Clicked="añadirClick"/>
+
+       <ListView x:Name="listaEtiquetas"
+                  ItemSelected="listaEtiqeutas" HasUnevenRows="True">
+                  <ListView.ItemTemplate>
+                     <DataTemplate>
+                        <TextCell Text="{Binding .}"/>
+                     </DataTemplate>
+                  </ListView.ItemTemplate>
+        </ListView>          
+    </VerticalStackLayout>
+</ContentPage>

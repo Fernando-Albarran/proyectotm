@@ -36,23 +36,29 @@ build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.AñadirRutaPage
 build_metadata.AdditionalFiles.TargetPath = AñadirRutaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = AñadirRutaPage.xaml
 
-[/Users/alumnoad/Desktop/ProyectoTecnologiasMoviles/ProyectoTM/BuscarRutaPage.xaml]
+[/Users/alumnoad/Desktop/ProyectoTecnologiasMoviles/ProyectoTM/DetalleRutaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.BuscarRutaPage.xaml
-build_metadata.AdditionalFiles.TargetPath = BuscarRutaPage.xaml
-build_metadata.AdditionalFiles.RelativePath = BuscarRutaPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.DetalleRutaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DetalleRutaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DetalleRutaPage.xaml
 
-[/Users/alumnoad/Desktop/ProyectoTecnologiasMoviles/ProyectoTM/DetalleRuta.xaml]
+[/Users/alumnoad/Desktop/ProyectoTecnologiasMoviles/ProyectoTM/EliminarRutaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.DetalleRuta.xaml
-build_metadata.AdditionalFiles.TargetPath = DetalleRuta.xaml
-build_metadata.AdditionalFiles.RelativePath = DetalleRuta.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.EliminarRutaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EliminarRutaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EliminarRutaPage.xaml
 
-[/Users/alumnoad/Desktop/ProyectoTecnologiasMoviles/ProyectoTM/ListaRuta.xaml]
+[/Users/alumnoad/Desktop/ProyectoTecnologiasMoviles/ProyectoTM/EtiquetaRutaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.ListaRuta.xaml
-build_metadata.AdditionalFiles.TargetPath = ListaRuta.xaml
-build_metadata.AdditionalFiles.RelativePath = ListaRuta.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.EtiquetaRutaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EtiquetaRutaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EtiquetaRutaPage.xaml
+
+[/Users/alumnoad/Desktop/ProyectoTecnologiasMoviles/ProyectoTM/ListadoRutaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.ListadoRutaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ListadoRutaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ListadoRutaPage.xaml
 
 [/Users/alumnoad/Desktop/ProyectoTecnologiasMoviles/ProyectoTM/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

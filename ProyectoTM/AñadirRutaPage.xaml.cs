@@ -9,23 +9,46 @@ public partial class AñadirRutaPage : ContentPage
 
 	private async void GuardarRuta (object sender, EventArgs e)
 	{
-		if(Datos.Rutas.Any(r=> r.Identificador == identificadorR.Text))
+
+		bool existe = false ; 
+		
+		foreach (Ruta ruta in DatosMock.Rutas)
 		{
-			await DisplayAlert ("Error", "El identificador ya existe", "OK"); 
-			return; 
+			if (ruta .Identificador == identificadorR.Text)
+			{
+				existe = true; 
+				break; 
+			}
 		}
+
+		if (existe)
+		{
+			await DisplayAlert("Error", "el idnetnficador ya existe", "ok");
+			return; 
+
+		}
+
+		if (dificultadR.SelectedItem == null)
+        {
+            await DisplayAlert("Error", "Selecciona una dificultad", "OK");
+            return;
+        }
 
 		Ruta r = new Ruta
 		{
 			Identificador = identificadorR.Text,
 			Nombre = nombreR.Text,
 			Dificultad = dificultadR.SelectedItem.ToString(),
+			
+			DistanciaKm = Convert.ToDouble(distanciaR.Text),
+            DesnivelPositivo = Convert.ToInt32(desnivelR.Text),
+			
 			Provincia = provinciaR.Text,
 			Circular = circularR.IsToggled,
 			FechaApertura = fechaPicker.Date
 		}; 
 
-		Datos.Rutas.Add(r);
+		DatosMock.Rutas.Add(r);
 		await DisplayAlert("OK", "Ruta añadida", "OK"); 
 	}
 }
