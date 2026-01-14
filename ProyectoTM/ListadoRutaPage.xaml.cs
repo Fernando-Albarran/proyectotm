@@ -1,30 +1,27 @@
-using System.Collections.Generic;
-using System; 
-
 namespace ProyectoTM;
 
 public partial class ListadoRutaPage : ContentPage
 {
 
-	private List<Ruta> rutas; 
+    private List<Ruta> rutas; 
 
-	public ListadoRutaPage()
-	{
-		InitializeComponent();
+    public ListadoRutaPage()
+    {
+        InitializeComponent();
 
-		rutas = DatosMock.Rutas; 
+        rutas = DatosMock.Rutas; 
 
-		listaRutas.ItemsSource = rutas; 
-	}
+        listaRutas.ItemsSource = rutas; 
+    }
 
-	private async void detalleRuta(object sender, SelectedItemChangedEventArgs e)
-	{
-		if (e.SelectedItem == null)
-		return; 
+    private async void detalleRuta(object sender, SelectedItemChangedEventArgs e)
+    {
+        if (e.SelectedItem == null)
+        return; 
 
-		Ruta rutaSeleccionada = (Ruta)e.SelectedItem; 
+        Ruta rutaSeleccionada = (Ruta)e.SelectedItem; 
 
-		await Navigation.PushAsync(new DetalleRutaPage(rutaSeleccionada)); 
-		listaRutas.SelectedItem = null; 
-	}
+        await Navigation.PushAsync(new DetalleRutaPage(rutaSeleccionada)); 
+        listaRutas.SelectedItem = null; 
+    }
 }

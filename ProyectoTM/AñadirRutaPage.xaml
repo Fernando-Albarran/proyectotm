@@ -21,10 +21,12 @@
 
 
         <Entry x:Name ="provinciaR" Placeholder="Provincia"/>
+        <Label Text="¿Es circular?"/>
         <Switch x:Name ="circularR"/>
 
+        
         <DatePicker x:Name ="fechaPicker"/>
         
-        <Button Text = "GUardar Ruta" Clicked = "GuardarRuta"/>
+        <Button Text = "Guardar Ruta" Clicked = "GuardarRuta"/>
     </VerticalStackLayout>
 </ContentPage>

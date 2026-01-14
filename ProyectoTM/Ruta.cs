@@ -13,7 +13,6 @@ public class Ruta
     public double DistanciaKm {get; set; }
 
     public int DesnivelPositivo{get; set; }
-
     public string Provincia {get; set; }
 
     public bool Circular{ get; set; }
