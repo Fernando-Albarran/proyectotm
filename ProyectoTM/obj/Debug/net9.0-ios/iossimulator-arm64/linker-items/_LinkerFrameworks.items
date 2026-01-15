@@ -361,10 +361,25 @@
     <_LinkerFrameworks Include="BackgroundAssets">
       <IsWeak>true</IsWeak>
     </_LinkerFrameworks>
+    <_LinkerFrameworks Include="BrowserEngineCore">
+      <IsWeak>true</IsWeak>
+    </_LinkerFrameworks>
     <_LinkerFrameworks Include="BrowserEngineKit">
       <IsWeak>true</IsWeak>
     </_LinkerFrameworks>
+    <_LinkerFrameworks Include="CoreNFC">
+      <IsWeak>true</IsWeak>
+    </_LinkerFrameworks>
     <_LinkerFrameworks Include="DeviceDiscoveryExtension">
+      <IsWeak>true</IsWeak>
+    </_LinkerFrameworks>
+    <_LinkerFrameworks Include="DeviceDiscoveryUI">
+      <IsWeak>true</IsWeak>
+    </_LinkerFrameworks>
+    <_LinkerFrameworks Include="ExtensionKit">
+      <IsWeak>true</IsWeak>
+    </_LinkerFrameworks>
+    <_LinkerFrameworks Include="GameSave">
       <IsWeak>true</IsWeak>
     </_LinkerFrameworks>
     <_LinkerFrameworks Include="PushToTalk">
@@ -389,6 +404,9 @@
       <IsWeak>true</IsWeak>
     </_LinkerFrameworks>
     <_LinkerFrameworks Include="Symbols">
+      <IsWeak>true</IsWeak>
+    </_LinkerFrameworks>
+    <_LinkerFrameworks Include="TouchController">
       <IsWeak>true</IsWeak>
     </_LinkerFrameworks>
     <_LinkerFrameworks Include="GSS">

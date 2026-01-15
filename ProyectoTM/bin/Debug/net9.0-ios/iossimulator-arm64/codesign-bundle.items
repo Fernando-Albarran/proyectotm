@@ -2,17 +2,17 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <_CodesignBundle Include="ProyectoTM.app">
-      <CodesignSigningKey></CodesignSigningKey>
-      <CodesignEntitlements></CodesignEntitlements>
+      <EnableCodeSigning>true</EnableCodeSigning>
+      <CodesignSigningKey>-</CodesignSigningKey>
+      <CodesignEntitlements>/Users/alumnoad/proyectotm/ProyectoTM/obj/Debug/net9.0-ios/iossimulator-arm64/Entitlements.xcent</CodesignEntitlements>
       <CodesignUseSecureTimestamp></CodesignUseSecureTimestamp>
-      <CodesignAllocate>/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate</CodesignAllocate>
-      <RequireCodeSigning>false</RequireCodeSigning>
+      <CodesignAllocate>/Applications/Xcode_26.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate</CodesignAllocate>
       <CodesignExtraArgs></CodesignExtraArgs>
       <CodesignResourceRules></CodesignResourceRules>
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Users/alumnoad/Desktop/ProyectoTecnologiasMoviles/ProyectoTM</SourceProjectPath>
+      <SourceProjectPath>/Users/alumnoad/proyectotm/ProyectoTM</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>

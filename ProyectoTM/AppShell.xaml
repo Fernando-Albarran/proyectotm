@@ -7,26 +7,23 @@
     Title="Rutas"
     FlyoutBehavior="Flyout">
 
-<FlyoutItem Title ="Rutas">
-        <ShellContent
-        Title="Añadir ruta"
-        ContentTemplate="{DataTemplate local:AñadirRutaPage}"/>
+    <Shell.FlyoutHeader>
+        <VerticalStackLayout Padding="20" BackgroundColor="#512BD4">
+            <Label Text="MENU" TextColor="White" FontAttributes="Bold"/>
+        </VerticalStackLayout>
+    </Shell.FlyoutHeader>
 
+    <FlyoutItem Title="Gestión Básica">
+        <ShellContent Title="Listado de Rutas" ContentTemplate="{DataTemplate local:ListadoRutaPage}" />
+        <ShellContent Title="Añadir Ruta" ContentTemplate="{DataTemplate local:AñadirRutaPage}" />
+        <ShellContent Title="Eliminar Ruta" ContentTemplate="{DataTemplate local:EliminarRutaPage}" />
+    </FlyoutItem>
 
-        <ShellContent
-        Title="Etiqueta ruta"
-        ContentTemplate="{DataTemplate local:EtiquetaRutaPage}"/>
+    <FlyoutItem Title="Avanzado">
+        <ShellContent Title="Estadísticas" ContentTemplate="{DataTemplate local:EstadisticasPage}" />
+        <ShellContent Title="Buscar Prov." ContentTemplate="{DataTemplate local:ListadoProvinciaPage}" />
+        <ShellContent Title="Buscar Etiq." ContentTemplate="{DataTemplate local:BusquedaEtiquetaPage}" />
+        <ShellContent Title="Modificar Dif." ContentTemplate="{DataTemplate local:ModificarDificultadPage}" />
+    </FlyoutItem>
 
-
-        <ShellContent
-        Title="Listado ruta"
-        ContentTemplate="{DataTemplate local:ListadoRutaPage}"/>
-
-       
-        <ShellContent
-        Title="Eliminar ruta"
-        ContentTemplate="{DataTemplate local:EliminarRutaPage}"/>
-
-
-</FlyoutItem>
 </Shell>

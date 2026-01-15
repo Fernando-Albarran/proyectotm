@@ -1,1 +1,1 @@
--v --force --timestamp=none --sign - /Users/alumnoad/Desktop/ProyectoTecnologiasMoviles/ProyectoTM/bin/Debug/net9.0-ios/iossimulator-arm64/ProyectoTM.app/libSystem.Security.Cryptography.Native.Apple.dylib
+-v --force --timestamp=none --sign - /Users/alumnoad/proyectotm/ProyectoTM/bin/Debug/net9.0-ios/iossimulator-arm64/ProyectoTM.app/libSystem.Security.Cryptography.Native.Apple.dylib

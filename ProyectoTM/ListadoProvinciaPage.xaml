@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoTM.ListadoProvinciaPage" Title="Provincia">
+    <VerticalStackLayout Padding="20">
+        <Entry x:Name="EntradaProv" Placeholder="Provincia (ej: salamanca)" />
+        <Button Text="Buscar" Clicked="OnBuscarClicked" />
+        <Label x:Name="LabelTotal" TextColor="Blue" FontAttributes="Bold"/>
+        <CollectionView x:Name="ListaResultados">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding Nombre}" FontSize="18"/>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>
