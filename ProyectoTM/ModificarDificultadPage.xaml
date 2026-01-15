@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ProyectoTM.ModificarDificultadPage" Title="Modificar Dif.">
+             x:Class="ProyectoTM.ModificarDificultadPage" 
+             Title="Modificar Dificultad">
+    
     <VerticalStackLayout Padding="20" Spacing="15">
-        <Entry x:Name="EntradaId" Placeholder="Nombre exacto (ej: bosque)" />
-        <Entry x:Name="EntradaDif" Placeholder="Nueva Dificultad (ej: Extrema)" />
-        <Button Text="Actualizar" Clicked="OnActualizarClicked" />
+        
+        <Label Text="Introduce el nombre de la ruta a modificar:" FontSize="16"/>
+        <Entry x:Name="EntradaId" Placeholder="Nombre exacto (ej: Sendero de la Peña)" />
+        
+        <Label Text="Selecciona la nueva dificultad:" FontSize="16"/>
+        <Picker x:Name="PickerDif" Title="Dificultad">
+            <Picker.Items>
+                <x:String>Fácil</x:String>
+                <x:String>Media</x:String>
+                <x:String>Dificil</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Button Text="Actualizar Ruta" 
+                Clicked="OnActualizarClicked" 
+                BackgroundColor="#512BD4" 
+                TextColor="White"/>
+                
     </VerticalStackLayout>
 </ContentPage>
