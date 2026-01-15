@@ -3,15 +3,20 @@ namespace ProyectoTM;
 public partial class ListadoRutaPage : ContentPage
 {
 
-    private List<Ruta> rutas; 
-
     public ListadoRutaPage()
     {
         InitializeComponent();
+    }
 
-        rutas = DatosMock.Rutas; 
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        RecargarLista();
+    }
 
-        listaRutas.ItemsSource = rutas; 
+    private void RecargarLista(){
+        listaRutas.ItemsSource = null;
+        listaRutas.ItemsSource = DatosMock.Rutas;
     }
 
     private async void detalleRuta(object sender, SelectedItemChangedEventArgs e)

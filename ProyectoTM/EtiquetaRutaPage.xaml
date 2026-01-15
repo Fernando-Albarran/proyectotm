@@ -8,6 +8,7 @@
        <Label Text="Eitquetas de la ruta"/>
    
 
+       <Entry x:Name="identificadorR" Placeholder="Identificador de la ruta"/>
        <Entry x:Name="nuevaetiquetaE" Placeholder="Nueva etiqueta"/>
 
        <Button Text="Añadir etiqueta" Clicked="añadirClick"/>

@@ -2,12 +2,16 @@ namespace ProyectoTM;
 
 public partial class EliminarRutaPage : ContentPage
 {
+	private readonly Action _recargarLista;
 
 	private List<Ruta> rutas; 
-	public EliminarRutaPage()
+
+	public EliminarRutaPage() : this(null) { }
+	public EliminarRutaPage(Action? recargarLista)
 	{
 		InitializeComponent();
 
+		_recargarLista = recargarLista;
 		rutas = DatosMock.Rutas;
 	}
 

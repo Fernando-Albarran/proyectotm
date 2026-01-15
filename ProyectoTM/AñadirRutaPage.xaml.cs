@@ -2,9 +2,12 @@ namespace ProyectoTM;
 
 public partial class AñadirRutaPage : ContentPage
 {
-	public AñadirRutaPage()
+	public readonly Action? _recargarLista;
+	public AñadirRutaPage() : this(null) {}
+	public AñadirRutaPage(Action? recargarLista)
 	{
 		InitializeComponent();
+		_recargarLista = recargarLista;
 	}
 
 	private async void GuardarRuta (object sender, EventArgs e)
