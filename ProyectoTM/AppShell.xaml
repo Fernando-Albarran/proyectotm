@@ -17,6 +17,7 @@
         <ShellContent Title="Listado de Rutas" ContentTemplate="{DataTemplate local:ListadoRutaPage}" />
         <ShellContent Title="Añadir Ruta" ContentTemplate="{DataTemplate local:AñadirRutaPage}" />
         <ShellContent Title="Eliminar Ruta" ContentTemplate="{DataTemplate local:EliminarRutaPage}" />
+        <ShellContent Title="Editar etiqueta Ruta" ContentTemplate="{DataTemplate local:EtiquetaRutaPage}" />
     </FlyoutItem>
 
     <FlyoutItem Title="Avanzado">

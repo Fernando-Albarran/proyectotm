@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alumnoad/proyectotm/ProyectoTM/ProyectoTM.csproj": {}
+    "/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/ProyectoTM.csproj": {}
   },
   "projects": {
-    "/Users/alumnoad/proyectotm/ProyectoTM/ProyectoTM.csproj": {
+    "/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/ProyectoTM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alumnoad/proyectotm/ProyectoTM/ProyectoTM.csproj",
+        "projectUniqueName": "/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/ProyectoTM.csproj",
         "projectName": "ProyectoTM",
-        "projectPath": "/Users/alumnoad/proyectotm/ProyectoTM/ProyectoTM.csproj",
-        "packagesPath": "/Users/alumnoad/.nuget/packages/",
-        "outputPath": "/Users/alumnoad/proyectotm/ProyectoTM/obj/",
+        "projectPath": "/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/ProyectoTM.csproj",
+        "packagesPath": "/Users/administrador/.nuget/packages/",
+        "outputPath": "/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "/Users/alumnoad/.nuget/NuGet/NuGet.Config"
+          "/Users/administrador/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0-android",
@@ -31,11 +31,11 @@
             "targetAlias": "net9.0-android",
             "projectReferences": {}
           },
-          "net9.0-ios26.0": {
+          "net9.0-ios18.5": {
             "targetAlias": "net9.0-ios",
             "projectReferences": {}
           },
-          "net9.0-maccatalyst26.0": {
+          "net9.0-maccatalyst18.5": {
             "targetAlias": "net9.0-maccatalyst",
             "projectReferences": {}
           }
@@ -50,7 +50,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0-android35.0": {
@@ -62,12 +62,12 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.120, )"
+              "version": "[9.0.82, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.11, )",
+              "version": "[9.0.9, )",
               "autoReferenced": true
             }
           },
@@ -82,20 +82,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Android.Ref.35",
-              "version": "[35.0.105, 35.0.105]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.11, 9.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.12, 9.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.Android": {
               "privateAssets": "all"
@@ -104,9 +90,9 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
         },
-        "net9.0-ios26.0": {
+        "net9.0-ios18.5": {
           "targetAlias": "net9.0-ios",
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
@@ -115,12 +101,12 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.120, )"
+              "version": "[9.0.82, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.11, )",
+              "version": "[9.0.9, )",
               "autoReferenced": true
             }
           },
@@ -135,24 +121,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.11, 9.0.11]"
-            },
-            {
-              "name": "Microsoft.iOS.Ref.net9.0_26.0",
-              "version": "[26.0.9783, 26.0.9783]"
-            },
-            {
-              "name": "Microsoft.iOS.Runtime.iossimulator-arm64.net9.0_26.0",
-              "version": "[26.0.9783, 26.0.9783]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.12, 9.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.iOS": {
               "privateAssets": "all"
@@ -161,9 +129,9 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
         },
-        "net9.0-maccatalyst26.0": {
+        "net9.0-maccatalyst18.5": {
           "targetAlias": "net9.0-maccatalyst",
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
@@ -172,12 +140,12 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.120, )"
+              "version": "[9.0.82, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.11, )",
+              "version": "[9.0.9, )",
               "autoReferenced": true
             }
           },
@@ -193,20 +161,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.11, 9.0.11]"
-            },
-            {
-              "name": "Microsoft.MacCatalyst.Ref.net9.0_26.0",
-              "version": "[26.0.9783, 26.0.9783]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.12, 9.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.MacCatalyst": {
               "privateAssets": "all"
@@ -215,11 +169,20 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
+        "android-arm64": {
+          "#import": []
+        },
+        "android-x64": {
+          "#import": []
+        },
         "iossimulator-arm64": {
+          "#import": []
+        },
+        "maccatalyst-arm64": {
           "#import": []
         }
       }

@@ -4,8 +4,6 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net9.0-android
-build_property.TargetFrameworkIdentifier = .NETCoreApp
-build_property.TargetFrameworkVersion = v9.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
@@ -14,91 +12,91 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProyectoTM
-build_property.ProjectDir = /Users/alumnoad/proyectotm/ProyectoTM/
+build_property.ProjectDir = /Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Users/alumnoad/proyectotm/ProyectoTM/App.xaml]
+[/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[/Users/alumnoad/proyectotm/ProyectoTM/AppShell.xaml]
+[/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[/Users/alumnoad/proyectotm/ProyectoTM/AñadirRutaPage.xaml]
+[/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/AñadirRutaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.AñadirRutaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = AñadirRutaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = AñadirRutaPage.xaml
 
-[/Users/alumnoad/proyectotm/ProyectoTM/BusquedaEtiquetaPage.xaml]
+[/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/BusquedaEtiquetaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.BusquedaEtiquetaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = BusquedaEtiquetaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = BusquedaEtiquetaPage.xaml
 
-[/Users/alumnoad/proyectotm/ProyectoTM/DetalleRutaPage.xaml]
+[/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/DetalleRutaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.DetalleRutaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = DetalleRutaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = DetalleRutaPage.xaml
 
-[/Users/alumnoad/proyectotm/ProyectoTM/EliminarRutaPage.xaml]
+[/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/EliminarRutaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.EliminarRutaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = EliminarRutaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = EliminarRutaPage.xaml
 
-[/Users/alumnoad/proyectotm/ProyectoTM/EstadisticasPage.xaml]
+[/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/EstadisticasPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.EstadisticasPage.xaml
 build_metadata.AdditionalFiles.TargetPath = EstadisticasPage.xaml
 build_metadata.AdditionalFiles.RelativePath = EstadisticasPage.xaml
 
-[/Users/alumnoad/proyectotm/ProyectoTM/EtiquetaRutaPage.xaml]
+[/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/EtiquetaRutaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.EtiquetaRutaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = EtiquetaRutaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = EtiquetaRutaPage.xaml
 
-[/Users/alumnoad/proyectotm/ProyectoTM/ListadoProvinciaPage.xaml]
+[/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/ListadoProvinciaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.ListadoProvinciaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = ListadoProvinciaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = ListadoProvinciaPage.xaml
 
-[/Users/alumnoad/proyectotm/ProyectoTM/ListadoRutaPage.xaml]
+[/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/ListadoRutaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.ListadoRutaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = ListadoRutaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = ListadoRutaPage.xaml
 
-[/Users/alumnoad/proyectotm/ProyectoTM/MainPage.xaml]
+[/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[/Users/alumnoad/proyectotm/ProyectoTM/ModificarDificultadPage.xaml]
+[/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/ModificarDificultadPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.ModificarDificultadPage.xaml
 build_metadata.AdditionalFiles.TargetPath = ModificarDificultadPage.xaml
 build_metadata.AdditionalFiles.RelativePath = ModificarDificultadPage.xaml
 
-[/Users/alumnoad/proyectotm/ProyectoTM/Resources/Styles/Colors.xaml]
+[/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
-[/Users/alumnoad/proyectotm/ProyectoTM/Resources/Styles/Styles.xaml]
+[/Users/administrador/Desktop/3/Tecnologias Moviles/Github/proyectotm/ProyectoTM/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoTM.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
